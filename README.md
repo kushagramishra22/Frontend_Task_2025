@@ -2,7 +2,7 @@
 
 A lightweight web application for executing SQL queries and visualizing results, designed for data analysts and developers.
 
-![App Screenshot](/screenshot.png) *(Optional: Add screenshot if available)*
+![App Screenshot](https://github.com/user-attachments/assets/53d51c79-de63-4736-b473-023915ce6f23) 
 
 ## Key Features
 - Execute sample SQL queries with one click
@@ -10,7 +10,8 @@ A lightweight web application for executing SQL queries and visualizing results,
 - Toggle between multiple query examples
 - Handles large datasets smoothly
 
-## Technologies Used
+## Technologies Used!
+
 - **Framework**: React 18
 - **Bundler**: Vite (for faster builds)
 - **Performance Libraries**:
