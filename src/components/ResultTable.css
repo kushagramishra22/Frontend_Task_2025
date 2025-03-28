@@ -1,0 +1,38 @@
+.result-table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .header-cell {
+    padding: 12px 15px;
+    flex: 1;
+    min-width: 100px;
+  }
+  
+  .table-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .table-cell {
+    padding: 12px 15px;
+    flex: 1;
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .no-results {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+  }

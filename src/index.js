@@ -1,8 +1,31 @@
+// src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import { sampleQueries } from './data/sampleData';
+
+// // Store data in a global variable before React loads
+window.preloadedData = { sampleQueries };
+
+// Start measuring performance right when the script executes
+const startTime = performance.now();
+
+// Function to measure and report load time
+const measureLoadTime = () => {
+  const loadTime = performance.now() - startTime;
+  console.log(`Application loaded in ${loadTime} milliseconds`);
+  
+  // Store the load time in a global variable so App component can access it
+  window.appLoadTime = loadTime;
+};
+
+// Measure when DOM content is loaded
+document.addEventListener('DOMContentLoaded', measureLoadTime);
+
+// Also measure when window fully loads
+window.addEventListener('load', measureLoadTime);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +33,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
