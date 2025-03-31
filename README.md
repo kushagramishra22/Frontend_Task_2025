@@ -3,7 +3,7 @@
 ## Overview
 SQL Query Runner is a React-based web application that allows users to execute predefined SQL queries and view the results in a structured table format. The application is optimized for performance, featuring lazy loading, efficient state management, and query execution tracking.
 
-![App Screenshot](https://github.com/user-attachments/assets/53d51c79-de63-4736-b473-023915ce6f23) )
+![App Screenshot](https://github.com/user-attachments/assets/53d51c79-de63-4736-b473-023915ce6f23) 
 
 ## 🚀 Tech Stack
 - **Frontend**: React (with React Hooks)
