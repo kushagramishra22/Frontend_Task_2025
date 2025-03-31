@@ -27,6 +27,8 @@ The project utilizes the following key dependencies:
 - **Optimized Rendering**: Lazy loading for large data tables
 
 ## 📊 Performance Metrics
+![App Screenshot](https://github.com/user-attachments/assets/2f71f23e-72fd-4458-b3cc-85a5de64dee8)
+)
 
 | Metric | Value | Measurement Method |
 |--------|-------|--------------------|
